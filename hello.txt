@@ -6,3 +6,18 @@ while i<d:
 print('----------------------')
 d=int(input("Введите цифру: "))
 print("Hello python \n"*d)
+print('----------------------')
+while True:
+    a=input("Введите любое положительное целое число: ")
+    try:
+        a=int(a)
+        if a<=0:
+            print("Число не положительное!!!")
+        else:
+            print('Спасибо за корректный ввод!')
+            i = 0
+            while i < a:
+                i += 1
+                print("Hello python")
+    except ValueError:
+        print("Некорректный ввод!!!")
