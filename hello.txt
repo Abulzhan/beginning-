@@ -1,0 +1,8 @@
+d=int(input("Введите цифру: "))
+i=0
+while i<d:
+    i+=1
+    print("Hello python")
+print('----------------------')
+d=int(input("Введите цифру: "))
+print("Hello python \n"*d)
